@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="angle">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="{{app.description}}">
+<meta name="keywords" content="HP Enterprise Architecture" />
+<meta name="description" content="HP Enterprise Architecture">
+<meta name="author" content="tim.huff@hp.com">
+<meta name="keywords" content="app, responsive, angular, bootstrap, dashboard, admin">
+<title data-ng-bind="::pageTitle()">Welcome to Moola!</title>
+<!-- Favicon -->
+<link rel="shortcut icon" href="app/img/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="app/img/logo-default.png">
+<!-- Bootstrap styles-->
+<link rel="stylesheet" href="app/css/bootstrap.css">
+
+<!-- ngMaterial styles-->
+<link rel="stylesheet" href="vendor/angular-material/angular-material.css" rel="stylesheet">
+<!-- Application styles-->
+<!--<link rel="stylesheet" href="vendor/owlcarousel/assets/css/bootstrapTheme.css">-->
+<link rel="stylesheet" href="vendor/owlcarousel/assets/css/custom.css">
+<link rel="stylesheet" href="vendor/owlcarousel/owl-carousel/owl.carousel.css">
+<link rel="stylesheet" href="vendor/owlcarousel/owl-carousel/owl.theme.css">
+<link rel="stylesheet" href="vendor/owlcarousel/assets/js/google-code-prettify/prettify.css">
+<link rel="stylesheet" href="app/css/app.css">
+
+<!-- Themes-->
+<link rel="stylesheet" href="app/css/theme-hp.css">
+</head>
+
+<body data-ng-class="{ 
+'layout-fixed' : app.layout.isFixed, 
+'aside-collapsed' : app.layout.isCollapsed, 
+'layout-boxed' : app.layout.isBoxed, 
+'layout-fs': app.useFullLayout, 
+'hidden-footer': app.hiddenFooter, 
+'layout-h': app.layout.horizontal}">
+<div data-ui-view="" data-autoscroll="false" class="wrapper"></div>
+
+
+<script src="vendor/owlcarousel/assets/js/jquery-1.9.1.min.js"></script>
+
+<script src="app/js/base.js"></script>
+<script src="vendor/angular-material/angular-material.js"></script>
+<script src="app/js/app.js"></script>
+<script src="vendor/owlcarousel/owl-carousel/owl.carousel.js"></script>
+
+<script src="vendor/owlcarousel/assets/js/bootstrap-collapse.js"></script>
+<script src="vendor/owlcarousel/assets/js/bootstrap-transition.js"></script>
+<script src="vendor/owlcarousel/assets/js/google-code-prettify/prettify.js">
+</script>
+<script src="vendor/owlcarousel/assets/js/application.js"></script>
+
+</body>
+
+</html>

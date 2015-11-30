@@ -1,0 +1,332 @@
+<style>
+#owl-demo .item img{
+display: block;
+width: 100%;
+height: auto;
+}
+</style>
+
+<script>
+$(document).ready(function() {
+$("#owl-demo").owlCarousel({
+navigation : true, // Show next and prev buttons
+slideSpeed : 300,
+paginationSpeed : 400,
+autoPlay : true,
+autoPlay : 2000,
+responsive : true,
+singleItem:true
+});
+});
+</script>
+<div class="container-fluid">
+<div class="col-lg-12">
+
+
+<!--<p class="lead m0">Welcome to Moola, How much Moola have you saved?</p>--> 
+    <h1 style="margin-top:-5px; color:#0096d6;">Welcome to Moola, How much Moola have you saved?</h1><br>
+<div class="col-lg-8">
+<section id="imageCarousel">
+<div id="demo">
+<div class="row">
+<div class="col-lg-2">
+<img src="app/img/moola-blue-right.png" class="img-responsive"/>
+</div>
+<div class="col-lg-10">
+<div id="owl-demo" class="owl-carousel">
+<div class="item"><img src="vendor/owlcarousel/demos/assets/fullimage5.jpg" alt="The Last of us"></div>
+<div class="item"><img src="vendor/owlcarousel/demos/assets/fullimage6.jpg" alt="GTA V"></div>
+<div class="item"><img src="vendor/owlcarousel/demos/assets/fullimage7.jpg" alt="Mirror Edge"></div>
+</div>
+</div>
+</div>
+</div>
+<br>
+</section>
+
+<section id="summationRow">
+<div class="row">
+<div class="col-lg-12">
+<div class="text-center bg-gray-dark">
+<div class="row row-table">
+<div class="col-xs-4">
+<h3 class="m5">1</h3>
+<p class="m5">Moola's Submitted</p>
+</div>
+<div class="col-xs-4">
+<h3 class="m5">$200.00</h3>
+<p class="m5">Moola Saved</p>
+</div>
+<div class="col-xs-4">
+<h3 class="m5">$200.00</h3>
+<p class="m5">Moola Saved</p>
+</div>
+</div>
+</div>
+</div>
+</div>  
+</section>
+<br>
+<section>
+<div class="col-lg-4">
+<!-- START widget-->
+<div class="panel widget">
+<div class="half-float">
+<img src="app/img/cow.png" alt="" class="img-responsive" />
+<div class="half-float-bottom">
+<img src="app/img/user/08.jpg" alt="Image" class="img-thumbnail img-circle thumb128" />
+</div>
+</div>
+<div class="panel-body text-center">
+<h3 class="m0">Jane Smith</h3>
+<p>Proin metus justo, commodo in ultrices at, lobortis sit amet dui. Fusce dolor purus, adipiscing a tempus at, gravida vel purus.</p>
+</div>
+<div class="panel-body text-center bg-gray-dark">
+<div class="row row-table">
+<div class="col-xs-5">
+<h3 class="m5">1</h3>
+<p class="m5">Moola's Submitted</p>
+</div>
+<div class="col-xs-2">
+<h3 class="m0"></h3>
+<p class="m0"></p>
+</div>
+<div class="col-xs-5">
+<h3 class="m5">$200.00</h3>
+<p class="m5">Moola Saved</p>
+</div>
+</div>
+</div>
+</div>
+<!-- END widget-->
+</div>
+<div class="col-lg-4">
+<!-- START widget-->
+<div class="panel widget">
+<div class="half-float">
+<img src="app/img/cow.png" alt="" class="img-responsive" />
+<div class="half-float-bottom">
+<img src="app/img/user/04.jpg" alt="Image" class="img-thumbnail img-circle thumb128" />
+</div>
+</div>
+<div class="panel-body text-center">
+<h3 class="m0">Ted Berry</h3>
+<p>Proin metus justo, commodo in ultrices at, lobortis sit amet dui. Fusce dolor purus, adipiscing a tempus at, gravida vel purus.</p>
+</div>
+<div class="panel-body text-center bg-gray-dark">
+<div class="row row-table">
+<div class="col-xs-5">
+<h3 class="m5">2</h3>
+<p class="m5">Moola's Submitted</p>
+</div>
+<div class="col-xs-2">
+<h3 class="m0"></h3>
+<p class="m0"></p>
+</div>
+<div class="col-xs-5">
+<h3 class="m5">$500.00</h3>
+<p class="m5">Moola Saved</p>
+</div>
+</div>
+</div>
+</div>
+<!-- END widget-->
+</div>
+<div class="col-lg-4">
+<!-- START widget-->
+<div class="panel widget">
+<div class="half-float">
+<img src="app/img/cow.png" alt="" class="img-responsive" />
+<div class="half-float-bottom">
+<img src="app/img/user/01.jpg" alt="Image" class="img-thumbnail img-circle thumb128" />
+</div>
+</div>
+<div class="panel-body text-center">
+<h3 class="m0">Teri John</h3>
+<p>Proin metus justo, commodo in ultrices at, lobortis sit amet dui. Fusce dolor purus, adipiscing a tempus at, gravida vel purus.</p>
+</div>
+<div class="panel-body text-center bg-gray-dark">
+<div class="row row-table">
+<div class="col-xs-5">
+<h3 class="m5">2</h3>
+<p class="m5">Moola's Submitted</p>
+</div>
+<div class="col-xs-2">
+<h3 class="m0"></h3>
+<p class="m0"></p>
+</div>
+<div class="col-xs-5">
+<h3 class="m5">$500.00</h3>
+<p class="m5">Moola Saved</p>
+</div>
+</div>
+</div>
+</div>
+<!-- END widget-->
+</div>
+</section>
+
+<h4>Test Button</h4>
+<p class="pv-lg animated fadeInUp anim-delay-35">
+<button md-ink-ripple="md-ink-ripple" type="button" ui-sref="app.welcome" class="btn btn-primary btn-lg">Test</button>
+</p>
+</div>
+
+<!--***************FORM PANEL START********************************-->
+<div class="col-lg-4">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h2 style="margin-top:-5px; color:#0096d6;">Input your Moola!</h2>
+</div>
+<div class="panel-body">
+<div class="col-md-12">
+<form role="form">
+<div class="form-group">
+<!--<label>Enter your Moola Savings</label>-->
+<!--<input type="text" masked="" data-inputmask="'mask': '$999,999.99'" class="form-control" style="height:72px;font-size:42px;margin-top:-10px;"/>-->
+<input type="text" class="form-control" style="height:72px;font-size:42px;margin-top:-10px;"/>
+</div>
+               <div class="form-group">
+                  <div class="col-lg-6" style="margin-left:-15px;">
+                     <input id="userfirstname" type="text" name="userfirstname" placeholder="Your firstname" class="form-control" />
+                  </div>
+                  <div class="col-lg-6" style=" margin-right:-30px;">
+                     <input id="userlastname" type="text" name="userlastname" placeholder="Your lastname" class="form-control" />
+                  </div>
+               </div>
+               <br><br><br>
+<div class="form-group">
+<!--<label>eMail</label>-->
+<input id="userEmail" type="email" placeholder="Your eMail" class="form-control" />
+</div>
+<div class="form-group">
+<label>Tell us about your Moola Stash!</label>
+<textarea rows="4" aria-multiline="true" tabindex="0" aria-invalid="false" class="form-control ng-pristine ng-valid ng-touched" style=""></textarea>
+</div>
+
+<br>
+<div class="form-group">
+
+<label class="radio-inline c-radio">
+<input id="inlineradio1" type="radio" name="i-radio" value="option1" checked="checked">
+<span class="fa fa-circle"></span>Is this a one time savings?</label>
+<label class="radio-inline c-radio">
+<input id="inlineradio2" type="radio" name="i-radio" value="option2">
+<span class="fa fa-circle"></span>Is this savings on-going?</label>
+</div>
+
+<br>
+<div class="form-group">
+<div class="checkbox c-checkbox needsclick">
+<label class="needsclick">
+<input type="checkbox" checked="needsclick" />
+<span class="fa fa-check"></span>You can hide your information and make this an Anonymous submission <i>(but why not show off your greatness!)</i></label>
+</div>
+</div>
+<hr>
+<button type="submit" class="btn btn-sm btn-primary">Submit</button>
+</form>
+</div>
+</div>
+</div>
+
+<div class="panel">
+         <div class="panel-heading">3 Comments</div>
+         <div class="panel-body">
+            <div class="media">
+               <div class="media-left">
+                  <a href="#">
+                     <img src="app/img/user/01.jpg" class="media-object img-circle thumb64" />
+                  </a>
+               </div>
+               <div class="media-body">
+                  <h4 id="media-heading" class="media-heading"><a href="">Susan Grant</a>
+                     <small>10 min</small>
+                     <a href="#media-heading" class="anchorjs-link">
+                        <span class="anchorjs-icon"></span>
+                     </a>
+                  </h4>
+                  <p>Donec ac massa tortor. In hac habitasse platea dictumst. Nam blandit fringilla faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae nisi eget metus semper congue.</p>
+                  <p>Fusce ullamcorper placerat tortor, placerat consequat diam cursus posuere.</p>
+               </div>
+            </div>
+            <hr/>
+            <div class="media">
+               <div class="media-left">
+                  <a href="#">
+                     <img src="app/img/user/03.jpg" class="media-object img-circle thumb64" />
+                  </a>
+               </div>
+               <div class="media-body mb-lg">
+                  <h4 id="media-heading" class="media-heading"><a href="">Dustin Dunn</a>
+                     <small>20 min</small>
+                     <a href="#media-heading" class="anchorjs-link">
+                        <span class="anchorjs-icon"></span>
+                     </a>
+                  </h4>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+                  congue felis in faucibus.
+                  <hr/>
+                  <div class="media">
+                     <div class="media-left">
+                        <a href="#">
+                           <img src="app/img/user/06.jpg" class="media-object img-circle thumb64" />
+                        </a>
+                     </div>
+                     <div class="media-body">
+                        <h4 id="nested-media-heading" class="media-heading"><a href="">Marcus Gomez</a>
+                           <small>1 hour</small>
+                           <a href="#nested-media-heading" class="anchorjs-link">
+                              <span class="anchorjs-icon"></span>
+                           </a>
+                        </h4>Integer ac nisl et urna gravida malesuada. Vivamus fermentum libero vel felis aliquet interdum.</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+ 
+<div class="panel">
+         <div class="panel-heading">
+            <em class="fa fa-pencil mr"></em>Add your Comment</div>
+         <div class="panel-body">
+            <form action="/" class="form-horizontal">
+               <div class="form-group">
+                  <div class="col-xs-6">
+                     <input id="post-firstname" type="text" name="post-firstname" placeholder="Your firstname" class="form-control" />
+                  </div>
+                  <div class="col-xs-6">
+                     <input id="post-lastname" type="text" name="post-lastname" placeholder="Your lastname" class="form-control" />
+                  </div>
+               </div>
+               <div class="form-group">
+                  <div class="col-xs-12">
+                     <textarea id="post-comment" name="post-comment" rows="4" placeholder="Comment here.." class="form-control"></textarea>
+                  </div>
+               </div>
+               <div class="form-group">
+                  <div class="col-xs-12">
+                     <button type="submit" class="btn btn-effect-ripple btn-primary">Send Comment</button>
+                  </div>
+               </div>
+            </form>
+         </div>
+      </div>
+<div id="embedded-feed" style="height:800px;width:200px;"></div>
+<script type="text/javascript" src="https://assets.yammer.com/assets/platform_embed.js"></script>
+<script type="text/javascript"> yam.connect.embedFeed({
+	container: "#embedded-feed",
+	network: "hp.com",
+	feedType: "group",
+	feedId: "6579749"});
+</script>
+
+
+</div>
+<!--form panel end-->
+
+
+
+</div>
+</div>
+
+
